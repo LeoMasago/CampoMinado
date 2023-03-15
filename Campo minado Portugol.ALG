@@ -1,37 +1,41 @@
-Algoritmo "semnome"
+Algoritmo "Campo Minado"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Aline
 // Descrição   : Fazer o jogo campo minado
 // Autor(a)    : Léo Masago e Bruno Lima
 // Data atual  : 10/03/2023
 Var
-x : vetor [0..9] de caracter
-z : vetor [0..1] de inteiro
-y : caracter
+campo:vetor[1..5, 1..5] de inteiro
+linha, coluna, resposta: inteiro
 tentativas : inteiro
 
 Inicio
-y <- "bomba"
-x[1] <- y
-tentativas <- 0
+campo[1,2] <- 1
+tentativas <- 2
 
 repita
-  escreva ("Digite um número entre 0 e 9: ")
-  leia (z[1])
+escreva("Digite a Linha:")
+leia(resposta)
+linha <- resposta
+escreva("Digite a Coluna:")
+leia(resposta)
+coluna <- resposta
 
- se (x[z[1]] = y) entao
-    escreval ("BOOM!")
- senao
-    escreval ("Continue...")
-    tentativas <- tentativas + 1
- fimse
-
-ate (x[z[1]] = y) ou (tentativas = 7)
-
-se (x[z[1]] = y) entao
-  escreval ("Você perdeu o jogo.")
+se campo[linha,coluna] = 1 entao
+escreval("BOOM")
 senao
-  escreval ("Parabéns! Você venceu o jogo")
+escreval ("Espaço Livre")
+tentativas <- tentativas +1
 fimse
+
+ate (campo[linha,coluna] = 1) ou (tentativas = 26)
+
+se (campo[linha,coluna] = 1) entao
+escreval("Perdeu")
+senao
+escreval ("Parabéns você venceu")
+fimse
+
+
 
 Fimalgoritmo
