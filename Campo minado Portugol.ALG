@@ -6,7 +6,7 @@ Algoritmo "Campo Minado"
 // Data atual  : 17/03/2023
 Var
    campo:vetor[1..5, 1..5] de inteiro
-   linha, coluna, resposta: inteiro
+   linha, coluna : inteiro
    tentativas : inteiro
 
 Inicio
