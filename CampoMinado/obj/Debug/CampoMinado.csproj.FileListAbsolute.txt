@@ -1,0 +1,8 @@
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe.config
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\bin\Debug\CampoMinado.pdb
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.AssemblyReference.cache
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.SuggestedBindingRedirects.cache
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\obj\Debug\CampoMinado.exe
+C:\Users\3jdmtec\Desktop\CampoMinado\CampoMinado\CampoMinado\obj\Debug\CampoMinado.pdb
